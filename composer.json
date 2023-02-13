@@ -1,0 +1,26 @@
+{
+    "name": "pine/pine-pagination",
+    "description": "This is pine pagination view component package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pine\\PinePagination\\": "src/"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "xuanhoanz"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pine\\PinePagination\\PinePaginationServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
